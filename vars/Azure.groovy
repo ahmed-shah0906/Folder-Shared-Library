@@ -1,4 +1,4 @@
-String getServicePrinicipalId(String environment) {
+def getServicePrinicipalId(String environment) {
    assert environment: 'environment is required'
    if (environment.equalsIgnoreCase('QA') || environment.equalsIgnoreCase('RC')
       || environment.equalsIgnoreCase('Performance')
