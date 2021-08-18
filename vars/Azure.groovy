@@ -1,4 +1,4 @@
-String getSubscriptionName(String environment) {
+String getServicePrinicipalId(String environment) {
    assert environment: 'environment is required'
    if (environment.equalsIgnoreCase('QA') || environment.equalsIgnoreCase('RC')
       || environment.equalsIgnoreCase('Performance')
